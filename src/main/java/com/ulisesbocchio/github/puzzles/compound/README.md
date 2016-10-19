@@ -37,11 +37,11 @@ breakfast
 
 #### Simulation
 
-it 1: b reakfast
-it 2: br eakfast
-it 3: bre akfast
-it 4: brea kfast
-it 5: break fast
+it 1: b reakfast <br/>
+it 2: br eakfast <br/>
+it 3: bre akfast <br/>
+it 4: brea kfast <br/>
+it 5: break fast <br/>
 
 After five iterations we can find that since "breakfast" was a word and "break" and "fast" are also words, then
 "breakfast" is a compound word.
