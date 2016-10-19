@@ -44,5 +44,15 @@ So for any given number `n` in the range `[0, 1)` we need to check on which 'slo
 
 `n=0.99` would be `PINK` since it falls in the slot `[0.6, 1.0)`
 
+## Time Complexity
 
+Worst case: `O(n)`
+
+Being `n` the amount of Jelly Bean flavors in the Jar.
+
+## Space Complexity
+
+`O(n)`
+
+Since we have to take into account that we are storing the probabilities.
 
