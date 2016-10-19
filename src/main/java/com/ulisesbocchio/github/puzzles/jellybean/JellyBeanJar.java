@@ -35,7 +35,6 @@ public class JellyBeanJar {
 
     public JellyBean getBean() {
         double pick = rand.nextDouble();
-        Preconditions.checkArgument(pick >= 0 && pick < 1f, String.format("pick has to be in the range [0,1), was: %f", pick));
         Iterator<JellyBeanDef> it = beanDefs.iterator();
         JellyBeanDef bean = it.next();
         double cumulativeChance = bean.getChance();

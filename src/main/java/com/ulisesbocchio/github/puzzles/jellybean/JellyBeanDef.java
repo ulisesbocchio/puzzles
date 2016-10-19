@@ -14,6 +14,7 @@ public class JellyBeanDef {
 
     public JellyBeanDef(double chance, JellyBean jellyBean) {
         Preconditions.checkArgument(chance > 0, "chance must be > 0");
+        Preconditions.checkArgument(jellyBean != null, "jelly bean can't be null");
         this.chance = chance;
         this.jellyBean = jellyBean;
     }
