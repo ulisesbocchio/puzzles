@@ -1,4 +1,4 @@
-# DFS, BFS with Map<Integer, List<Integer>> representation
+# DFS, BFS with `Map<Integer, List<Integer>>` representation
 
 `pathExists(a,b):boolean` implementation using:
 
