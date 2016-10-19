@@ -5,7 +5,7 @@
 * Iterative and Recursive Depth First Search
 * Iterative Breadth First Search
 
-Test is in class `DfsBfsWithMapTest`
+Test is in class [DfsBfsWithMapTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/dfsbfsmap/DfsBfsWithMapTest.java)
 
 ## Graph Representation
 

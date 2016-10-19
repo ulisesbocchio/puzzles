@@ -8,7 +8,7 @@ probabilities provided.
 
 ## Solution
 
-`JellyBeanJar` implements the logic and there's a test in `JellyBeanJarTest`. <br>
+`JellyBeanJar` implements the logic.<br>
 The solution consists on a class that accepts a list of `JellyBeanDef` on its constructor. Each `JellyBeanDef` contains
 the `JellyBean` flavor/color and probability of it to be picked.
 The `JellyBeanJar` checks that in fact all definitions sum is `1` and sorts the probabilities in ascending order.<br/>
@@ -43,6 +43,10 @@ So for any given number `n` in the range `[0, 1)` we need to check on which 'slo
 `n=0.40` would be `RED` since it falls in the slot `[0.3, 0.6)`
 
 `n=0.99` would be `PINK` since it falls in the slot `[0.6, 1.0)`
+
+## Test
+
+Test is in class [JellyBeanJarTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/jellybean/JellyBeanJarTest.java)
 
 ## Time Complexity
 

@@ -46,6 +46,10 @@ it 5: break fast <br/>
 After five iterations we can find that since "breakfast" was a word and "break" and "fast" are also words, then
 "breakfast" is a compound word.
 
+## Test
+
+Test is in class [CompoundWordsTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/compound/CompoundWordsTest.java)
+
 ## Time Complexity
 
 Worst case: `O(n^2)`

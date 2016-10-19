@@ -44,6 +44,10 @@ The matrix represents the commented Graph. Where `n = 4` and there's a path from
 (0,0), (0,1), (1,1), (2,1), (2, 2), (2, 3) since at each position we have different values: (0,1,0,1,0,1).
 In the Map representation each matrix position was replaced with a number from `0` to `11`, so the path be be found is
  from node `0` to `11` (`(n * (n - 1)) - 1 = 4 * 3 - 1`).
+ 
+ ## Test
+ 
+ Test is in class [MatrixPathGraphTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/matrixpath/MatrixPathGraphTest.java)
 
 ## Time Complexity
 
