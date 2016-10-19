@@ -21,3 +21,7 @@ exists from the top-left corner to the bottom-right corner of the matrix.
 
 Find out whether a given word is compound or not given a dictionary of words.
 A compound word by definition is a new word form by the juxtaposition of 2 other words
+
+## [Missing Number](./src/main/java/com/ulisesbocchio/github/puzzles/missingnumber)
+
+Given an array that contains all natural numbers from `1` to `n` except for one, find that missing number.

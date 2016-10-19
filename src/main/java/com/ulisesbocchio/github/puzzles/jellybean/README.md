@@ -56,7 +56,5 @@ Being `n` the amount of Jelly Bean flavors in the Jar.
 
 ## Space Complexity
 
-`O(n)`
-
-Since we have to take into account that we are storing the probabilities.
+`O(1)`
 
