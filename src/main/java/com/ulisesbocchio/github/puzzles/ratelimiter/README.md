@@ -41,9 +41,10 @@ be able to accept 2 more. The same repeats.
 
 ## Test
 
- Tests are in class [RateLimiterTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/ratelimiter/RateLimiterTest.java)
- Tests are in class [SmoothRateLimiterTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/ratelimiter/SmoothRateLimiterTest.java)
- Tests are in class [SimpleSmoothRateLimiterTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/ratelimiter/SimpleSmoothRateLimiterTest.java)
+ Tests are in classes:
+ * [RateLimiterTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/ratelimiter/RateLimiterTest.java)
+ * [SmoothRateLimiterTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/ratelimiter/SmoothRateLimiterTest.java)
+ * [SimpleSmoothRateLimiterTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/ratelimiter/SimpleSmoothRateLimiterTest.java)
 
 ## Time Complexity
 
