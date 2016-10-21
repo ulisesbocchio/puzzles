@@ -25,3 +25,9 @@ A compound word by definition is a new word form by the juxtaposition of 2 other
 ## [Missing Number](./src/main/java/com/ulisesbocchio/github/puzzles/missingnumber)
 
 Given an array that contains all natural numbers from `1` to `n` except for one, find that missing number.
+
+## [Rate Limiter](./src/main/java/com/ulisesbocchio/github/puzzles/ratelimiter)
+
+Write a Rate Limiter. A class basically with an `acquire():boolean` method that returns `true` when a rate slot is
+available for use and false otherwise. The class instance is initialized with a `rate` or `QPS`, "queries per second"
+that the rate limiter can accept every second.
