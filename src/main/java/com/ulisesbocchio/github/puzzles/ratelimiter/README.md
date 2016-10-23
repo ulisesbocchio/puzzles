@@ -1,7 +1,7 @@
 # Rate Limiter
 
 ## Problem
-Write a Rate Limiter. A class basically with an `acquire():boolean` method that returns `true` when a rate slot is
+A class basically with an `acquire():boolean` method that returns `true` when a slot is
 available for use and false otherwise. The class instance is initialized with a `rate` or `QPS`, "queries per second"
 that the rate limiter can accept every second.
 
