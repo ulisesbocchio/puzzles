@@ -60,7 +60,9 @@ be able to accept 2 more. The same repeats.
 
 ## Test
 
- Tests are in classes:
+[Runner](./Runner.java) Runs all 3 rate limiters for 10 seconds with different rates.
+
+ Unit Tests are in classes:
  * [BurstyRateLimiterTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/ratelimiter/BurstyRateLimiterTest.java)
  * [SmoothRateLimiterTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/ratelimiter/SmoothRateLimiterTest.java)
  * [SimpleSmoothRateLimiterTest](../../../../../../../test/java/com/ulisesbocchio/github/puzzles/ratelimiter/SimpleSmoothRateLimiterTest.java)
