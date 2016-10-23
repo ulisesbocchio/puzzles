@@ -5,6 +5,6 @@ import static org.junit.Assert.*;
 /**
  * @author Ulises Bocchio
  */
-public class RateLimiterTest {
+public class BurstyRateLimiterTest {
 
 }

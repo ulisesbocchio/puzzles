@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * @author Ulises Bocchio
  */
 @SuppressWarnings("Duplicates")
-public class SimpleSmoothRateLimiter {
+public class SimpleSmoothRateLimiter implements RateLimiter {
     private Stopwatch stopwatch;
     private boolean slotAvailable = true;
     private long slotTime;
