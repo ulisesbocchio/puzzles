@@ -2,7 +2,7 @@
 
 ## Problem
 Given an array that contains all natural numbers from `1` to `n` except for one, find that missing number.
-Notice the array does not have the numbers in order, and the size of the array is `n-1`.
+Notice the array does not have the numbers in order, and the capacity of the array is `n-1`.
 
 ## Solution
 

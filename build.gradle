@@ -8,6 +8,9 @@ targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven {
+        url "https://repository.sonatype.org/content/groups/forge"
+    }
 }
 
 dependencies {
