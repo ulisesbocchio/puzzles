@@ -31,3 +31,8 @@ Given an array that contains all natural numbers from `1` to `n` except for one,
 A class tha implements an `acquire():boolean` method that returns `true` when a rate slot is
 available for use and false otherwise. The class instance is initialized with a `rate` or `QPS`, "queries per second"
 that the rate limiter can accept (return `true`) every second.
+
+## 7. [Data Structures](./src/main/java/com/ulisesbocchio/github/puzzles/datastructures)
+
+* Stack
+* Queue
