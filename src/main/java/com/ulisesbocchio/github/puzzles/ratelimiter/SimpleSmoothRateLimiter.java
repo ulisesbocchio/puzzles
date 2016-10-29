@@ -45,25 +45,4 @@ public class SimpleSmoothRateLimiter implements RateLimiter {
             currentSlot = elapsedSlots;
         }
     }
-
-    @SneakyThrows
-    public static void main(String[] args) {
-        long start = System.currentTimeMillis();
-        SimpleSmoothRateLimiter limiter = new SimpleSmoothRateLimiter(10);
-        int counter = 0;
-        boolean printElapsed = true;
-        while (true) {
-            long elapsed = System.currentTimeMillis() - start;
-            if(elapsed % 1000 == 0 && printElapsed) {
-                System.out.println("Elapsed millis: " + elapsed);
-                printElapsed = false;
-            } else if (elapsed % 1000 != 0) {
-                printElapsed = true;
-            }
-            if(limiter.acquire()) {
-                ++counter;
-                System.out.println(counter);
-            }
-        }
-    }
 }

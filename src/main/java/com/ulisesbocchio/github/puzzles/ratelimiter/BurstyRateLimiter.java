@@ -2,7 +2,6 @@ package com.ulisesbocchio.github.puzzles.ratelimiter;
 
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Stopwatch;
-import lombok.SneakyThrows;
 
 import java.util.concurrent.TimeUnit;
 
@@ -40,18 +39,6 @@ public class BurstyRateLimiter implements RateLimiter {
         if (elapsedSeconds > currentSecond) {
             count = 0;
             currentSecond = elapsedSeconds;
-        }
-    }
-
-    @SneakyThrows
-    public static void main(String[] args) {
-        BurstyRateLimiter limiter = new BurstyRateLimiter(5);
-        int counter = 0;
-        while (true) {
-            if(limiter.acquire()) {
-                System.out.println(++counter);
-            }
-            Thread.sleep(10L);
         }
     }
 }

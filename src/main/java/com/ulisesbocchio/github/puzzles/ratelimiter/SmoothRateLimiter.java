@@ -62,25 +62,4 @@ public class SmoothRateLimiter implements RateLimiter {
             currentPeriod = elapsedPeriods;
         }
     }
-
-    @SneakyThrows
-    public static void main(String[] args) {
-        long start = System.currentTimeMillis();
-        SmoothRateLimiter limiter = new SmoothRateLimiter(5);
-        int counter = 0;
-        boolean printElapsed = true;
-        while (true) {
-            long elapsed = System.currentTimeMillis() - start;
-            if (elapsed % 1000 == 0 && printElapsed) {
-                System.out.println("Elapsed millis: " + elapsed);
-                printElapsed = false;
-            } else if (elapsed % 1000 != 0) {
-                printElapsed = true;
-            }
-            if (limiter.acquire()) {
-                ++counter;
-                System.out.println(counter);
-            }
-        }
-    }
 }
